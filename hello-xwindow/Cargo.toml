@@ -1,0 +1,8 @@
+[package]
+name = "hello-xwindow"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk = { version = "0.9.1", features = ["v4_12", "v4_6"], package = "gtk4" }
+
