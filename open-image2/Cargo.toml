@@ -1,0 +1,9 @@
+[package]
+name = "open-image2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = "0.24.6"  # 이미지 파일을 읽는 크레이트
+pixels = "0.12.0"  # 픽셀을 렌더링하는 크레이트
+winit = "0.28.6"  # 윈도우 생성 및 이벤트 관리
