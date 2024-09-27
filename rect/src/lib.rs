@@ -50,8 +50,8 @@ mod tests {
         sleep(Duration::from_secs(5));
     }
 
-    #[test]
-    #[ignore]
+    // #[test]
+    // #[ignore]
     fn expensive_test2() {
          // code that takes an hour to run
         sleep(Duration::from_secs(5));
